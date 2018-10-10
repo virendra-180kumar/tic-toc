@@ -1,0 +1,22 @@
+/*Styles for Table*/
+#board{
+	border-collapse: collapse; 
+  	border-spacing: 0;
+  	background: aquamarine; 
+}
+
+#board tr td{
+	height: 50px;
+	width: 50px;
+	border: 1px solid black;
+	text-align: center;
+	cursor: pointer;
+}
+.btnReset{
+    padding: 10px;
+    margin-top: 20px;
+    display: inline-block;
+    border: 1px solid;
+    background: red;
+    cursor: pointer;
+}
